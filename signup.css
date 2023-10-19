@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    background-image: url(./Images/back2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+form{
+    background-color: rgba(0, 255, 255, 0.493);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 7%;
+}
+button{
+    background-color: rgba(107, 107, 228, 0.514); 
+}
+/* label,input{
+    margin-bottom: 12px;
+} */
+.fa-user{
+    top: 10%;
+    left: 30%;
+
+}
+#fname{
+    position: relative;
+}
